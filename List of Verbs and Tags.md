@@ -1,88 +1,174 @@
 # Tags
 
-| Tag | English |
-| :---: | :---: |
-| Slovak::regular | regular |
-| Slovak::irregular | irregular |
-| Slovak::modal | modal |
-| Slovak::neurčitok | infinitive |
-| Slovak::prechodník | transitioner |
-| Slovak::príčastie | participle |
-| Slovak::príčastie::prítomné_činné | active present participle |
-| Slovak::príčastie::minulé_činné | active past participle |
-| Slovak::príčastie::minulé_trpné | pasive past participle |
-| Slovak::oznamovací_spôsob | action / tense |
-| Slovak::oznamovací_spôsob::prítomný_čas | present tense |
-| Slovak::oznamovací_spôsob::budúci_čas | future tense |
-| Slovak::oznamovací_spôsob::minulý_čas | past tense |
-| Slovak::podmieňovací_spôsob | conditional |
-| Slovak::podmieňovací_spôsob::prítomný_čas | present conditional |
-| Slovak::podmieňovací_spôsob::minulý_čas | past conditional |
-| Slovak::rozkazovací_spôsob | imperative |
-| Slovak::slovazné_podstatné_meno | verbal noun |
-| Slovak::ja | I (1. person singular pronoun) |
-| Slovak::ty | you (2. person singular pronoun) |
-| Slovak::on | he (3. person singular pronoun, masculine) |
-| Slovak::ona | she (3. person singular pronoun, feminine) |
-| Slovak::ono | it (3. person singular pronoun, neuter) |
-| Slovak::my | we (1. person plural pronoun) |
-| Slovak::vy | you (2. person plural pronoun) |
-| Slovak::oni | they (3. person plural pronoun, includes at least one adult man) |
-| Slovak::ony | they (3. person plural pronoun, other) |
-| Slovak::imperfektívum | imperfect verb (doesn't have verb form for future tense) |
-| Slovak::perfektivum | imperfect verb (does have verb form for future tense) |
-
----
-
-# Verbs
-
-## Regular
-
-| # | Tag | English |
-| :---: | :---: | :---: |
-| 1 | Slovak::brať | to take, to treat  |
-| 2 | Slovak::chudnúť | to lose weight |
-| 3 | Slovak::chytať | to take, to fish |
-| 4 | Slovak::česať | to comb |
-| 5 | Slovak::hynúť | to perish |
-| 6 | Slovak::kričať | to shout out, to cry, to scream |
-| 7 | Slovak::niesť | to carry, to bear, to bring |
-| 8 | Slovak::pracovať | to work, to operate, to function |
-| 9 | Slovak::robiť | to do, to make |
-| 10 | Slovak::rozumieť | to understand |
-| 11 | Slovak::trieť | to rub |
-| 12 | Slovak::trieť | to see |
-| 13 | Slovak::žať | to harvest, to gather |
-| 14 | Slovak::žuť | to chew |
-
-## Irregular
+## By Tense
 
 | Tag | English |
 | :---: | :---: |
-| Slovak::byť | to be |
-| Slovak::báť | to fear |
-| Slovak::chcieť | to want, to wish |
-| Slovak::dostať | to get, to receive, to catch |
-| Slovak::jesť | to eat |
-| Slovak::pomôcť | to help |
-| Slovak::predpovedať | to predict, to foretell |
-| Slovak::stať | to become, to happen, to occur |
-| Slovak::stáť | to stand, to be, to cost |
-| Slovak::vedieť | to know, to understand, can |
-| Slovak::ísť | to go, to walk, to ride |
-| Slovak::môcť | can, to be able to, may |
-| Slovak::prísť | to come, to arrive, to get |
-| Slovak::vziať | to take |
-| Slovak::dôjsť | to arrive, to come, to reach |
-| Slovak::povedať | to say, to tell, to speak |
+| neurčitok | infinitive |
+| slovazné_podstatné_meno | verbal noun / gerund |
+| prítomné_činné_príčastie | active present participle |
+| minulé_činné_príčastie | active past participle |
+| minulé_trpné_príčastie | pasive past participle |
+| oznamovací_spôsob_prítomného_časa | present tense |
+| oznamovací_spôsob_minulého_časa | past tense |
+| oznamovací_spôsob_budúcého_časa | future tense |
+| podmieňovací_spôsob_prítomného_časa | present conditional |
+| podmieňovací_spôsob_minulého_časa | past conditional |
+| rozkazovací_spôsob | imperative |
 
-## Modal
+## By Subject
 
 | Tag | English |
 | :---: | :---: |
-| Slovak::chcieť | to want |
-| Slovak::môcť | can |
-| Slovak::musieť | must |
-| Slovak::vedieť | to know |
-| Slovak::mať  | to have |
-| Slovak::smieť  | may |
+| ja | I (1. person singular pronoun) |
+| ja_mužský_rod | I (1. person singular pronoun, masculine) |
+| ja_ženský_rod | I (1. person singular pronoun, feminine) |
+| ty | you (2. person singular pronoun) |
+| ty_mužský_rod | you (2. person singular pronoun, masculine) |
+| ty_ženský_rod | you (2. person singular pronoun, feminine) |
+| on | he (3. person singular pronoun, masculine) |
+| ona | she (3. person singular pronoun, feminine) |
+| ono | it (3. person singular pronoun, neuter) |
+| on_ona_ono | he, she, it (3. person singular pronoun) |
+| my | we (1. person plural pronoun) |
+| vy | you (2. person plural pronoun) |
+| oni | they (3. person plural pronoun, includes at least one adult man) |
+| ony | they (3. person plural pronoun, other) |
+| oni_ony | they (3. person plural pronoun) |
+
+## Misc Tags
+
+| Tag | English |
+| :---: | :---: |
+| pravidelné | regular |
+| nepravidelné | irregular |
+| modálne | modal |
+| imperfektívum | imperfect verb (doesn't have verb form for future tense) |
+| perfektivum | perfect verb (does have verb form for future tense) |
+
+## By Verb
+
+### Regular
+
+| Tag | English |
+| :---: | :---: |
+| brať | to take, to treat  |
+| chudnúť | to lose weight |
+| chytať | to take, to fish |
+| česať | to comb |
+| hynúť | to perish |
+| kričať | to shout out, to cry, to scream |
+| niesť | to carry, to bear, to bring |
+| pracovať | to work, to operate, to function |
+| robiť | to do, to make |
+| rozumieť | to understand |
+| trieť | to rub |
+| vidieť | to see |
+| žať | to harvest, to gather |
+| žuť | to chew |
+
+### Irregular
+
+| Tag | English |
+| :---: | :---: |
+| byť | to be |
+| báť | to fear |
+| chcieť | to want, to wish |
+| dostať | to get, to receive, to catch |
+| dôjsť | to arrive, to come, to reach |
+| jesť | to eat |
+| nájsť | to find |
+| môcť | can, to be able to, may |
+| pomôcť | to help |
+| povedať | to say, to tell, to speak |
+| predpovedať | to predict, to foretell |
+| prísť | to come, to arrive, to get |
+| stať | to become, to happen, to occur |
+| stáť | to stand, to be, to cost |
+| vedieť | to know, to understand, can |
+| ísť | to go, to walk, to ride |
+| vziať | to take |
+
+### Modal
+
+| Tag | English |
+| :---: | :---: |
+| chcieť | to want |
+| môcť | can |
+| musieť | must |
+| vedieť | to know |
+| mať  | to have |
+| smieť  | may |
+
+### By Frequency (Acording to ChatGPT)
+
+| Tag | English |
+| :---: | :---: |
+| byť | to be |
+| mať | to have |
+| robiť | to do |
+| vidieť | to see |
+| ísť | to go |
+| chcieť | to want |
+| vedieť | to know |
+| jesť | to eat |
+| stať | to stand |
+| nájsť | to find |
+| môcť | to be able to |
+| vziať | to take |
+| dostať | to get |
+| musieť | to have to |
+| povedať | to tell |
+| pracovať | to work |
+| smieť | to be allowed to |
+| predpovedať | to predict |
+| pomôcť | to help |
+| báť | to fear |
+| brať | to take |
+| rozumieť | to understand |
+| trieť | to rub |
+| žuť | to chew |
+| chytať | to catch |
+| česať | to comb |
+| žať | to reap |
+| prísť | to arrive |
+| stáť | to cost |
+| hynúť | to perish |
+| dôjsť | to come |
+| kričať | to scream |
+| niesť | to carry |
+
+## By Class
+
+Not implemented
+
+| Tag | Third Person Singular Ending |
+| :---: | :---: |
+| Class_I |  |
+| Class_II |  |
+| Class_III |  |
+| Class_IV |  |
+| Class_V |  |
+| Class_VI |  |
+| Class_VII |  |
+
+## By Type
+
+Not implemented
+
+| Tag | Third Person Plural Ending |
+| :---: | :---: |
+| Type_1 |  |
+| Type_2 |  |
+| Type_3 |  |
+| Type_4 |  |
+| Type_5 |  |
+| Type_6 |  |
+| Type_7 |  |
+| Type_8 |  |
+| Type_9 |  |
+| Type_10 |  |
+| Type_11 |  |
+| Type_12 |  |
+| Type_13 |  |
+| Type_14 |  |
