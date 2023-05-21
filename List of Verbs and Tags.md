@@ -137,7 +137,7 @@
 | dôjsť | to come |
 | kričať | to scream |
 | niesť | to carry |
-
+| chudnúť | to lose weight |
 ## By Class
 
 Not implemented
