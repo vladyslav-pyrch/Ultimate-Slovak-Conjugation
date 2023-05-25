@@ -1,0 +1,350 @@
+.night_mode {
+    /*
+disable the color inverter to display colors how I intended them
+See:
+https://github.com/ankidroid/Anki-Android/wiki/Advanced-formatting#customize-night-mode-colors
+https://github.com/ankidroid/Anki-Android/issues/6921
+*/
+}
+
+input#typeans {
+    text-align: center;
+    height: 40px;
+    border: 0;
+    outline-style: none;
+}
+
+.card {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.front,
+.back {
+    /* not quite as bright as white */
+    color: rgb(203, 209, 209);
+}
+
+.back {
+    text-align: left;
+}
+
+.tag_SECTION {
+    font-size: 0.8em;
+    color: #999;
+}
+
+.tags {
+    font-style: italic;
+}
+
+.orientation_hint {
+    font-style: italic;
+    color: #999;
+}
+
+.orientation_pop_back {
+    color: rgb(113, 171, 194);
+}
+
+.orientation_inf {
+    /*  spelling change, e.g c => z */
+    color: rgb(209, 199, 158);
+}
+
+.have_fun {
+    color: rgb(113, 171, 194);
+    font-size: 2em;
+}
+
+.orientation_examples {
+    color: rgb(203, 209, 209);
+    text-align: left;
+}
+
+.info_close {
+    /*  the [...OK...] */
+    color: rgb(210, 142, 2);
+}
+
+.hint {
+    /*  hints on the front */
+    color: #999;
+}
+
+.en_verb {
+    /*  the English verb on the front card */
+    color: rgb(210, 142, 2);
+}
+
+.sl_verb {
+    /* the Slovak verb on the back card */
+    color: rgb(210, 142, 2);
+}
+
+.sl_hint {
+    /* on the back card, additional text with the answer */
+    text-align: left;
+    color: #999;
+}
+
+.sl_prn {
+    /* the pronoun on the Slovak side. Since it's optional, it can be greyed out */
+    color: #999;
+}
+
+.sl_on_ona_ono {
+    /* on, ona or ono, in the cards that have them all */
+    color: rgb(98, 151, 85);
+}
+
+.sl_ony_oni {
+    /* ony or oni, in the cards that have both */
+    color: rgb(113, 171, 194);
+}
+
+.alt_conj,
+.alt_to_inf {
+    /* The conjugated form of a similar verb, or the infinitive if the field is infinitive */
+    color: rgb(209, 199, 158);
+}
+
+.alt_to_inf a:link,
+.alt_to_inf a:visited,
+.alt_to_inf a:active,
+.alt_to_inf a:hover {
+    color: rgb(209, 199, 158);
+    border-bottom: 1px dashed rgb(88, 157, 246);
+    text-decoration: none;
+}
+
+.alt_inf {
+    /* the infinitive of alternate verbs in parentheses */
+    font-style: italic;
+}
+
+.alt_inf a:link,
+.alt_inf a:visited,
+.alt_inf a:active,
+.alt_inf a:hover {
+    color: rgb(203, 209, 209);
+    border-bottom: 1px dashed rgb(88, 157, 246);
+    text-decoration: none;
+}
+
+.en_halite {
+    /* special words on front card*/
+    text-align: left;
+    color: rgb(113, 171, 194);
+}
+
+.note_feature {
+    /* A feature of a verb that we want to highlight in the notes*/
+    color: rgb(136, 136, 198);
+}
+
+.note_pop {
+    /* A misc feature to highlight in the notes*/
+    color: rgb(255, 0, 128);
+}
+
+.note_numb {
+    /* a number in the notes */
+    color: rgb(31, 139, 210);
+}
+
+.note_spell {
+    /*  spelling change, e.g c => z */
+    color: rgb(209, 199, 158);
+}
+
+.note_sl_word {
+    /* A Slovak word used in the notes*/
+    font-style: italic;
+}
+
+.note_english_highlight {
+    /* Let's Go */
+    font-style: italic;
+    color: rgb(209, 199, 158);
+}
+
+.notes_sl_form {
+    /* One of the answer's conjugated forms, when mentioned in the notes */
+    color: rgb(210, 142, 2);
+}
+
+.notes_sl_inf {
+    /*  the Slovak infinitive of the current verb, when mentioned in the notes*/
+    font-style: italic;
+    color: rgb(209, 199, 158);
+}
+
+.notes_usage {
+    /* something specific*/
+    color: rgb(113, 171, 194);
+    font-style: italic;
+}
+
+.notes_usage a:link,
+.notes_usage a:visited,
+.notes_usage a:active,
+.notes_usage a:hover {
+    color: rgb(113, 171, 194);
+    border-bottom: 1px dashed rgb(88, 157, 246);
+    text-decoration: none;
+}
+
+.notes_usage_english {
+    /* translation of something specific*/
+    font-style: italic;
+}
+
+.dict a:link,
+.dict a:visited,
+.dict a:active {
+    color: rgb(209, 199, 158);
+    border-bottom: 1px dashed rgb(88, 157, 246);
+    text-decoration: none;
+    font-style: italic;
+}
+
+.dict a:hover {
+    color: rgb(88, 157, 246);
+    text-decoration: none;
+    font-style: italic;
+}
+
+.wrong_conj {
+    /* wrong theoretical conjugation */
+    color: rgb(205, 92, 92);
+    font-style: italic;
+}
+
+.verb_numbers {
+    /* number of verbs in this family */
+    color: rgb(209, 199, 158);
+}
+
+.close_halite {
+    /* special words on front card */
+    color: rgb(113, 171, 194);
+    font-style: italic;
+}
+
+.close_pronoun {
+    /*  the pronoun on the front */
+}
+
+.manual {
+    font-size: 0.8em;
+    color: #999;
+}
+
+.manual a:link,
+.manual a:visited,
+.manual a:active {
+    color: rgb(255, 128, 64);
+    border-bottom: 1px dashed rgb(255, 128, 64);
+    text-decoration: none;
+    font-style: italic;
+}
+
+.manual a:hover {
+    color: rgb(255, 0, 128);
+    border-bottom: 1px dashed rgb(255, 0, 128);
+    text-decoration: none;
+    font-style: italic;
+}
+
+.infinitive {
+    color: rgb(230, 25, 75);
+}
+
+.verbal_noun {
+    color: rgb(255, 170, 170);
+}
+
+.participle {
+    color: rgb(245, 130, 49);
+}
+
+.present {
+    color: rgb(255, 225, 25);
+}
+
+.past {
+    color: rgb(191, 239, 69);
+}
+
+.future {
+    color: rgb(60, 180, 75);
+}
+
+.conditional {
+    color: rgb(66, 212, 244);
+}
+
+.imperative {
+    color: rgb(67, 99, 216);
+}
+
+/* UNUSED COLORS
+The following classes are not used in the deck.
+They are included here for convenience: they are colors I find eye-pleasing and consistent with the current palette. Having them here makes it easy to copy the color codes to different classes whose styles I might want to change around.
+
+Snippets:
+  color: rgb();
+*/
+.whitish {
+    /* several options */
+    color: rgb(203, 209, 209);
+    color: rgb(209, 199, 158);
+    color: rgb(255, 216, 183);
+}
+
+.blue {
+    /* several options */
+    color: rgb(113, 171, 194);
+    color: rgb(88, 157, 246);
+    color: rgb(31, 139, 210);
+    color: rgb(104, 151, 187);
+}
+
+.brown {
+    color: rgb(210, 142, 2);
+}
+
+.pink {
+    color: rgb(255, 0, 128);
+    color: rgb(255, 170, 170);
+}
+
+.yellow {
+    /* several options */
+    color: rgb(255, 198, 109);
+    color: rgb(251, 188, 66);
+    color: rgb(230, 219, 116);
+}
+
+.green {
+    /* several options */
+    color: rgb(98, 151, 85);
+    color: rgb(127, 159, 127);
+    color: rgb(67, 134, 0);
+    color: rgb(142, 192, 116);
+}
+
+.purple {
+    /* several options */
+    color: rgb(128, 128, 255);
+    color: rgb(136, 136, 198);
+    color: rgb(151, 118, 170);
+}
+
+.orange {
+    color: rgb(255, 128, 64);
+}
