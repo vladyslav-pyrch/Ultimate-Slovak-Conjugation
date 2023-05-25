@@ -2,9 +2,10 @@
 
 <!-- TOC -->
 * [Tags](#tags)
-  * [By Tense](#by-tense-)
+  * [By Tense](#by-tense)
   * [By Subject](#by-subject)
-  * [Misc Tags](#misc-tags)
+  * [Verb Attributes](#verb-attributes)
+  * [Gender](#gender)
   * [By Verb](#by-verb)
     * [Regular](#regular)
     * [Irregular](#irregular)
@@ -14,21 +15,22 @@
   * [By Type](#by-type)
 <!-- TOC -->
 
-## By Tense 
+## By Tense
 
-|                 Tag                 |          English          |
-|:-----------------------------------:|:-------------------------:|
-|              neurčitok              |        infinitive         |
-|       slovazné_podstatné_meno       |   verbal noun / gerund    |
-|      prítomné_činné_príčastie       | active present participle |
-|       minulé_činné_príčastie        |  active past participle   |
-|       minulé_trpné_príčastie        |  pasive past participle   |
-|  oznamovací_spôsob_prítomného_časa  |       present tense       |
-|   oznamovací_spôsob_minulého_časa   |        past tense         |
-|   oznamovací_spôsob_budúcého_časa   |       future tense        |
-| podmieňovací_spôsob_prítomného_časa |    present conditional    |
-|  podmieňovací_spôsob_minulého_časa  |     past conditional      |
-|         rozkazovací_spôsob          |        imperative         |
+|            Tag            |
+|:-------------------------:|
+|        infinitive         |
+|        verbal_noun        |
+| present_active_participle |
+|  past_active_participle   |
+|  past_passive_participle  |
+|          present          |
+|           past            |
+|       past_perfect        |
+|          future           |
+|    present_conditional    |
+|     past_conditional      |
+|        imperative         |
 
 ## By Subject
 
@@ -44,17 +46,23 @@
 |      oni      | they (3. person plural pronoun, includes at least one adult man) |
 |      ony      |              they (3. person plural pronoun, other)              |
 
-## Misc Tags
+## Verb Attributes
 
-|     Tag      |    English     |
-|:------------:|:--------------:|
-|  pravidelné  |    regular     |
-| nepravidelné |   irregular    |
-|   modálne    |     modal      |
-|    ženské    |  feminine[^1]  |
-|    mužské    | masculine[^1]  |
-|   dokonalé   |  perfect verb  |
-|  nedokonalé  | imperfect verb |
+|      Tag      |
+|:-------------:|
+|    regular    |
+|   irregular   |
+|     modal     |
+|    perfect    |
+|   imperfect   |
+
+## Gender
+
+|      Tag      |
+|:-------------:|
+| feminine[^1]  |
+| masculine[^1] |
+
 
 ## By Verb
 
@@ -150,6 +158,7 @@
 |   kričať    |    to scream     |
 |    niesť    |     to carry     |
 |   chudnúť   |  to lose weight  |
+
 ## By Class
 
 Not implemented
