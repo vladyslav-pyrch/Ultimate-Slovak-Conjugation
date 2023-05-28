@@ -89,3 +89,39 @@ class Prompt:
     def imperative_tense_ony_oni(infinitive: str, imperative: str) -> str:
         with open('static/templates/imperative/imperative tense (ony, oni).html', 'r', encoding="utf8") as template:
             return template.read().format(infinitive=infinitive, imperative=imperative)
+
+class Notes:
+    @staticmethod
+    def comma() -> str:
+        with open('static/templates/notes/comma.html', 'r', encoding="utf8") as template:
+            return template.read()
+
+    @staticmethod
+    def imperfect() -> str:
+        with open('static/templates/notes/imperfect.html', 'r', encoding="utf8") as template:
+            return template.read()
+
+    @staticmethod
+    def perfect() -> str:
+        with open('static/templates/notes/perfect.html', 'r', encoding="utf8") as template:
+            return template.read()
+
+    @staticmethod
+    def irregular() -> str:
+        with open('static/templates/notes/irregular.html', 'r', encoding="utf8") as template:
+            return template.read()
+
+    @staticmethod
+    def regular() -> str:
+        with open('static/templates/notes/regular.html', 'r', encoding="utf8") as template:
+            return template.read()
+
+    @staticmethod
+    def modal() -> str:
+        with open('static/templates/notes/modal.html', 'r', encoding="utf8") as template:
+            return template.read()
+
+    @staticmethod
+    def verb_is_translated_as(infinitive: str, translation: str) -> str:
+        with open('static/templates/notes/comma.html', 'r', encoding="utf8") as template:
+            return template.read().format(infinitive=infinitive, translation=translation)

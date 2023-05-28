@@ -292,6 +292,26 @@ input#typeans {
     color: rgb(67, 99, 216);
 }
 
+.irregular {
+    color: rgb(255, 0, 128);
+}
+
+.regular {
+color: rgb(255, 128, 64);
+}
+
+.modal {
+    color: rgb(31, 139, 210);
+}
+
+.impefect {
+    color: rgb(142, 192, 116);
+}
+
+.perfect {
+    color: rgb(230, 219, 116);
+}
+
 /* UNUSED COLORS
 The following classes are not used in the deck.
 They are included here for convenience: they are colors I find eye-pleasing and consistent with the current palette. Having them here makes it easy to copy the color codes to different classes whose styles I might want to change around.
