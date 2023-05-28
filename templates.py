@@ -50,6 +50,17 @@ class Prompt:
             return template.read().format(infinitive=infinitive, past_perfect=past_perfect, pronoun=pronoun)
 
     @staticmethod
+    def past_tense_gender(infinitive: str, past: str, pronoun: str, gender: str) -> str:
+        with open('static/templates/past/past tense (gender).html', 'r', encoding="utf8") as template:
+            return template.read().format(infinitive=infinitive, past=past, pronoun=pronoun, gender=gender)
+
+    @staticmethod
+    def past_perfect_tense_gender(infinitive: str, past_perfect: str, pronoun: str, gender: str) -> str:
+        with open('static/templates/past/past perfect tense (gender).html', 'r', encoding="utf8") as template:
+            return template.read().format(infinitive=infinitive, past_perfect=past_perfect, pronoun=pronoun,
+                                          gender=gender)
+
+    @staticmethod
     def future_tense(infinitive: str, future: str, pronoun: str) -> str:
         with open('static/templates/future/future tense.html', 'r', encoding="utf8") as template:
             return template.read().format(infinitive=infinitive, future=future, pronoun=pronoun)
@@ -74,6 +85,18 @@ class Prompt:
     def past_conditional(infinitive: str, past_conditional: str, pronoun: str) -> str:
         with open('static/templates/conditional/past conditional tense.html', 'r', encoding="utf8") as template:
             return template.read().format(infinitive=infinitive, past_conditional=past_conditional, pronoun=pronoun)
+
+    @staticmethod
+    def present_conditional_gender(infinitive: str, present_conditional: str, pronoun: str, gender: str) -> str:
+        with open('static/templates/conditional/present conditional tense (gender).html', 'r', encoding="utf8") as template:
+            return template.read().format(infinitive=infinitive, present_conditional=present_conditional,
+                                          pronoun=pronoun, gender=gender)
+
+    @staticmethod
+    def past_conditional_gender(infinitive: str, past_conditional: str, pronoun: str, gender: str) -> str:
+        with open('static/templates/conditional/past conditional tense (gender).html', 'r', encoding="utf8") as template:
+            return template.read().format(infinitive=infinitive, past_conditional=past_conditional, pronoun=pronoun,
+                                          gender=gender)
 
     @staticmethod
     def imperative_tense(infinitive: str, imperative: str, pronoun: str) -> str:
