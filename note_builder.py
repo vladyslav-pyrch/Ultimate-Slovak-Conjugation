@@ -102,7 +102,6 @@ class NoteBuilder:
         if self.tense is Tense.Future:
             return Prompt.future_tense(self.infinitive, self.conjugation, self.subjects[0])
 
-
         if self.tense is Tense.PresentConditional and self.gender is not None:
             return Prompt.present_conditional_gender(self.infinitive, self.conjugation, self.subjects[0], self.gender)
         if self.tense is Tense.PastConditional and self.gender is not None:
@@ -126,17 +125,13 @@ class NoteBuilder:
         result = Notes.verb_is_translated_as(self.infinitive, self.translation)
 
         if VerbAttribute.Regular in self.verb_attributes:
-            result = result + Notes.regular()
-
+            result = result + Notes.regular() + Notes.comma()
         if VerbAttribute.Irregular in self.verb_attributes:
-            result = result + Notes.irregular()
-
+            result = result + Notes.irregular() + Notes.comma()
         if VerbAttribute.Modal in self.verb_attributes:
-            result = result + Notes.modal()
-
+            result = result + Notes.modal() + Notes.comma()
         if VerbAttribute.Perfect in self.verb_attributes:
             result = result + Notes.perfect()
-
         if VerbAttribute.Imperfect in self.verb_attributes:
             result = result + Notes.imperfect()
 
