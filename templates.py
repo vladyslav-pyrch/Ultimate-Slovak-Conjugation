@@ -146,5 +146,5 @@ class Notes:
 
     @staticmethod
     def verb_is_translated_as(infinitive: str, translation: str) -> str:
-        with open('static/templates/notes/comma.html', 'r', encoding="utf8") as template:
+        with open('static/templates/notes/verb is translated as.html', 'r', encoding="utf8") as template:
             return template.read().format(infinitive=infinitive, translation=translation)

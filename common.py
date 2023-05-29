@@ -43,5 +43,5 @@ styles.close()
 
 def get_verbs() -> list[Verb]:
     with open("Slovak Conjugation.json", "r", encoding="utf8") as file:
-        verbs = [Verb.from_dict(data) for data in json.loads(file.read())["Conjugation"]]
+        verbs = [Verb(data) for data in json.loads(file.read())["Conjugation"]]
         return verbs
