@@ -104,6 +104,10 @@ class NoteBuilder:
         if self.tense is Tense.Present:
             return Prompt.present_tense(self.infinitive, self.conjugation, self.subjects[0])
 
+        if self.tense is Tense.Past and Subject.Ony in self.subjects and Subject.Oni in self.subjects:
+            return Prompt.past_tense_ony_oni(self.infinitive, self.conjugation)
+        if self.tense is Tense.PastPerfect and Subject.Ony in self.subjects and Subject.Oni in self.subjects:
+            return Prompt.past_perfect_tense_ony_oni(self.infinitive, self.conjugation)
         if self.tense is Tense.Past and self.gender is not None:
             return Prompt.past_tense_gender(self.infinitive, self.conjugation, self.subjects[0], self.gender)
         if self.tense is Tense.PastPerfect and self.gender is not None:
@@ -120,6 +124,10 @@ class NoteBuilder:
         if self.tense is Tense.Future:
             return Prompt.future_tense(self.infinitive, self.conjugation, self.subjects[0])
 
+        if self.tense is Tense.PresentConditional and Subject.Ony in self.subjects and Subject.Oni in self.subjects:
+            return Prompt.present_conditional_ony_oni(self.infinitive, self.conjugation)
+        if self.tense is Tense.PastConditional and Subject.Ony in self.subjects and Subject.Oni in self.subjects:
+            return Prompt.past_conditional_ony_oni(self.infinitive, self.conjugation)
         if self.tense is Tense.PresentConditional and self.gender is not None:
             return Prompt.present_conditional_gender(self.infinitive, self.conjugation, self.subjects[0], self.gender)
         if self.tense is Tense.PastConditional and self.gender is not None:

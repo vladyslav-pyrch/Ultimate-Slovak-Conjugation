@@ -50,6 +50,16 @@ class Prompt:
             return template.read().format(infinitive=infinitive, past_perfect=past_perfect, pronoun=pronoun)
 
     @staticmethod
+    def past_tense_ony_oni(infinitive: str, past: str) -> str:
+        with open('static/templates/past/past tense (ony, oni).html', 'r', encoding="utf8") as template:
+            return template.read().format(infinitive=infinitive, past=past)
+
+    @staticmethod
+    def past_perfect_tense_ony_oni(infinitive: str, past_perfect: str) -> str:
+        with open('static/templates/past/past perfect tense (ony, oni).html', 'r', encoding="utf8") as template:
+            return template.read().format(infinitive=infinitive, past_perfect=past_perfect)
+
+    @staticmethod
     def past_tense_gender(infinitive: str, past: str, pronoun: str, gender: str) -> str:
         with open('static/templates/past/past tense (gender).html', 'r', encoding="utf8") as template:
             return template.read().format(infinitive=infinitive, past=past, pronoun=pronoun, gender=gender)
@@ -85,6 +95,16 @@ class Prompt:
     def past_conditional(infinitive: str, past_conditional: str, pronoun: str) -> str:
         with open('static/templates/conditional/past conditional tense.html', 'r', encoding="utf8") as template:
             return template.read().format(infinitive=infinitive, past_conditional=past_conditional, pronoun=pronoun)
+
+    @staticmethod
+    def present_conditional_ony_oni(infinitive: str, present_conditional: str) -> str:
+        with open('static/templates/conditional/present conditional tense (ony, oni).html', 'r', encoding="utf8") as template:
+            return template.read().format(infinitive=infinitive, present_conditional=present_conditional)
+
+    @staticmethod
+    def past_conditional_ony_oni(infinitive: str, past_conditional: str) -> str:
+        with open('static/templates/conditional/past conditional tense (ony, oni).html', 'r', encoding="utf8") as template:
+            return template.read().format(infinitive=infinitive, past_conditional=past_conditional)
 
     @staticmethod
     def present_conditional_gender(infinitive: str, present_conditional: str, pronoun: str, gender: str) -> str:
