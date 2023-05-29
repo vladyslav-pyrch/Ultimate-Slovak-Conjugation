@@ -1,8 +1,9 @@
 import uuid
 
-from usc_note import USCNote
 from tags import Tense, Subject, VerbAttribute, Gender
 from templates import Prompt, Notes
+from usc_note import USCNote
+from verb import Verb
 
 
 class NoteBuilder:
@@ -14,13 +15,10 @@ class NoteBuilder:
     verb_attributes: list[VerbAttribute] = []
     gender: Gender | None = None
 
-    def set_infinitive(self, infinitive: str) -> 'NoteBuilder':
-        self.infinitive = infinitive
-        return self
-
-    def set_translation(self, translation: str) -> 'NoteBuilder':
-        self.translation = translation
-        return self
+    def __init__(self, verb: Verb):
+        self.__set_infinitive(verb.infinitive)
+        self.__set_translation(verb.translation)
+        self.__set_attributes(verb.regular, verb.modal, verb.perfect)
 
     def set_conjugation(self, conjugation: str) -> 'NoteBuilder':
         self.conjugation = conjugation
@@ -34,16 +32,38 @@ class NoteBuilder:
         self.subjects.append(subject)
         return self
 
-    def add_verb_attribute(self, verb_attribute: VerbAttribute) -> 'NoteBuilder':
-        self.verb_attributes.append(verb_attribute)
-        return self
+    def build(self) -> USCNote:
+        return USCNote.create(self.__uuid, self.__prompt, self.__notes, self.__tags)
 
     def set_gender(self, gender: Gender) -> 'NoteBuilder':
         self.gender = gender
         return self
 
-    def build(self) -> USCNote:
-        return USCNote.create(self.__uuid, self.__prompt, self.__notes, self.__tags)
+    def __set_infinitive(self, infinitive: str) -> 'NoteBuilder':
+        self.infinitive = infinitive
+        return self
+
+    def __set_translation(self, translation: str) -> 'NoteBuilder':
+        self.translation = translation
+        return self
+
+    def __add_verb_attribute(self, verb_attribute: VerbAttribute) -> 'NoteBuilder':
+        self.verb_attributes.append(verb_attribute)
+        return self
+
+    def __set_attributes(self, regular: bool, modal: bool, perfect: bool) -> 'NoteBuilder':
+        if regular:
+            self.__add_verb_attribute(VerbAttribute.Regular)
+        else:
+            self.__add_verb_attribute(VerbAttribute.Irregular)
+        if modal:
+            self.__add_verb_attribute(VerbAttribute.Modal)
+        if perfect:
+            self.__add_verb_attribute(VerbAttribute.Perfect)
+        else:
+            self.__add_verb_attribute(VerbAttribute.Imperfect)
+
+        return self
 
     @property
     def __uuid(self) -> str:

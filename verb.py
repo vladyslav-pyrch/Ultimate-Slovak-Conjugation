@@ -1,14 +1,15 @@
-from typing import Any
 from dataclasses import dataclass
+from typing import Any
+
 
 @dataclass
 class Verb:
     infinitive: str
     translation: str
-    verbal_noun: str
-    present_active_participle_on: str
-    past_active_participle_on: str
-    past_passive_participle_on: str
+    verbal_noun: str | None
+    present_active_participle_on: str | None
+    past_active_participle_on: str | None
+    past_passive_participle_on: str | None
     present_ja: str
     present_ty: str
     present_on_ona_ono: str
@@ -61,11 +62,11 @@ class Verb:
     past_conditional_my: str
     past_conditional_vy: str
     past_conditional_oni_ony: str
-    imperative_ty: str
-    imperative_on_ona_ono: str
-    imperative_my: str
-    imperative_vy: str
-    imperative_oni_ony: str
+    imperative_ty: str | None
+    imperative_on_ona_ono: str | None
+    imperative_my: str | None
+    imperative_vy: str | None
+    imperative_oni_ony: str | None
     regular: bool
     modal: bool
     perfect: bool
@@ -155,4 +156,3 @@ class Verb:
                     _past_conditional_on, _past_conditional_ona, _past_conditional_ono, _past_conditional_my,
                     _past_conditional_vy, _past_conditional_oni_ony, _imperative_ty, _imperative_on_ona_ono,
                     _imperative_my, _imperative_vy, _imperative_oni_ony, _regular, _modal, _perfect, _amount_of_cards)
-
