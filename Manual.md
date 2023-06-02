@@ -8,7 +8,7 @@
     * [A Guide to Verbal and Visual Cues](#a-guide-to-verbal-and-visual-cues)
     * [How to Pace the Study?](#how-to-pace-the-study)
     * [Tags & Filtering](#tags--filtering)
-    * [List of the 72 Verbs](#list-of-the-72-verbs)
+    * [List of the 35 Verbs](#list-of-the-35-verbs)
     * [Deck Description](#deck-description)
 <!-- TOC -->
 
