@@ -6,13 +6,12 @@
   * [By Subject](#by-subject)
   * [Verb Attributes](#verb-attributes)
   * [Gender](#gender)
+  * [Misc](#misc)
   * [By Verb](#by-verb)
     * [Regular](#regular)
     * [Irregular](#irregular)
     * [Modal](#modal)
     * [By Frequency (According to ChatGPT)](#by-frequency-according-to-chatgpt)
-  * [By Class](#by-class)
-  * [By Type](#by-type)
 <!-- TOC -->
 
 ## By Tense
