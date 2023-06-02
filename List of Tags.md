@@ -64,6 +64,13 @@
 | masculine[^1] |
 
 
+## Misc
+
+|   Tag    |
+|:--------:|
+| Reminder |
+
+
 ## By Verb
 
 ### Regular
@@ -159,39 +166,5 @@
 |    niesť    |     to carry     |
 |   chudnúť   |  to lose weight  |
 
-## By Class
-
-Not implemented
-
-| Tag | Third Person Singular Ending |
-| :---: | :---: |
-| Class_I |  |
-| Class_II |  |
-| Class_III |  |
-| Class_IV |  |
-| Class_V |  |
-| Class_VI |  |
-| Class_VII |  |
-
-## By Type
-
-Not implemented
-
-| Tag | Third Person Plural Ending |
-| :---: | :---: |
-| Type_1 |  |
-| Type_2 |  |
-| Type_3 |  |
-| Type_4 |  |
-| Type_5 |  |
-| Type_6 |  |
-| Type_7 |  |
-| Type_8 |  |
-| Type_9 |  |
-| Type_10 |  |
-| Type_11 |  |
-| Type_12 |  |
-| Type_13 |  |
-| Type_14 |  |
 
 [^1]: Appears only in past tenses and conditionals with ja and ty pronouns.

@@ -8,6 +8,8 @@
     * [A Guide to Verbal and Visual Cues](#a-guide-to-verbal-and-visual-cues)
     * [How to Pace the Study?](#how-to-pace-the-study)
     * [Tags & Filtering](#tags--filtering)
+    * [List of the 72 Verbs](#list-of-the-72-verbs)
+    * [Deck Description](#deck-description)
 <!-- TOC -->
 
 ## English
@@ -26,9 +28,9 @@ or [AnkiMobile](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387)
 
 ### What is in this deck
 
-**35 Verbs, 2200 Flashcards**<br>
-The deck has 2134 conjugation flashcards. Most of the 35 verbs have 62 flashcards.
-[Here](List%20of%20Verbs%20and%20Tags.md), you'll find a list of the 35 verbs.
+**35 Verbs, 800 Flashcards**<br>
+The deck has 811 conjugation flashcards. Most of the 35 verbs have 24 flashcards.
+You'll find a list of the 35 verbs below.
 There's also a separate page explaining in detail how the verbs were selected.
 
 **Are the conjugations accurate?**<br>
@@ -37,17 +39,15 @@ Also, other parts may have some bugs to fix, so if you find them,
 please, make the issue on [GitHub](https://github.com/Enkidu-Chains/Ultimate-Slovak-Conjugation/issues).
 Or contribute to the project by fixing it yourself on [GitHub](https://github.com/Enkidu-Chains/Ultimate-Slovak-Conjugation).
 
-**What are 62 cards for most verbs?**<br>
+**What are 24 cards for most verbs?**<br>
 - infinitive - 1 card
 - verbal noun -  1 card
 - participles (masculine singular only) -  3 cards
 - present tense - 6 cards
-- past tense - 10 cards
-- past perfect tense - 10 cards
-- future tense 6 cards
-- present conditional tense - 10 cards
-- past conditional tense - 10 cards
-- imperative tense - 5 cards 
+- past tense - 4 cards
+- future tense - 6 cards (only for byť)
+- imperative tense - 3 cards
+- reminder cards - 6 card
 
 **Why these particular 35 verbs?**<br>
 Picking these verbs wasn't very hard proces.
@@ -57,16 +57,21 @@ and 6 modal verbs. And these three [1](http://www.slovnik.org/ru/Ucebnica/Table-
 [2](https://en.wiktionary.org/wiki/Category:Slovak_irregular_verbs)
 and [3](https://forum.wordreference.com/threads/slovak-irregular-verbs.2766504/) for irregular verbs.
 
-**Compound tenses**<br>
-This deck includes compound tenses
-(past perfect, present conditional (past tense + *by* particle), past conditional (past perfect + *by* particle) and future tense).
-The mechanism of making them is quite easy to remember and learning them is just rehashing of already learnt forms,
-so you can freely suspend those cards to make less work for yourself.<br>
-I recommend to learn all the forms for first 3 verbs and suspend them for the rest.
-That, in total, will decrease amount of cards to 982, what is not too scary, is it?<br>
+**Compound tenses and reminder cards**<br>
+This deck includes compound tenses: 
+- future (compound only for imperfect verbs)
+- past (only 6 forms)
+- past perfect
+- present conditional
+- past conditional
+- imperative (only two forms)
+
+The mechanism of making them is quite easy to remember so learning them is just rehashing of already learnt forms.
+Therefore, they are separated to riminder cards that comes after main set of cards.<br>
+You can suspend or remove these card if you don't want to learn them, or already know how to make compound tenses.
+It will decrease amount of card to 604 card.
 (Warning about future tense, it can be either compound tense or present tense forms for imperfect and perfect verb respectively.
 With exception to *byť*, it has its own future tense form.)
-(Also two forms of imperative tense are compound tense, but I don't think 70 or something cards will make big difference)
 
 ### Anatomy of a Flashcard
 
@@ -125,7 +130,7 @@ This card is prompting for *robiť*.
 Prompts for the verbal noun have a verbal cue:<br>
 `Pokiaľ má čas, rád sa venuje`
 
-![verbal noun.png](static%2Fimages%2Fverbal%20noun.png)
+![verbal noun.png](static/images/verbal noun.png)
 
 This card is prompting for *robenie*.
 
@@ -223,3 +228,47 @@ There are no negative cards in this deck because they are formed by simply attac
 ### How to Pace the Study?
 
 ### Tags & Filtering
+
+### List of the 72 Verbs
+
+The deck has 811 conjugation cards.
+
+For reference, here is the list of the 35 verbs in the deck.
+
+01. Byť (to be): 28 cards
+02. Mať (to have): 22 cards
+03. Robiť (to do): 24 cards
+04. Vidieť (to see): 24 cards
+05. Ísť (to go): 24 cards
+06. Chcieť (to want): 24 cards
+07. Vedieť (to know): 24 cards
+08. Jesť (to eat): 24 cards
+09. Stať (to stand): 22 cards
+10. Nájsť (to find): 24 cards
+11. Môcť (to be able to): 21 cards
+12. Vziať (to take): 22 cards
+13. Dostať (to get): 24 cards
+14. Musieť (to have to): 21 cards
+15. Povedať (to tell): 23 cards
+16. Pracovať (to work): 24 cards
+17. Smieť (to be allowed to): 17 cards
+18. Predpovedať (to predict): 23 cards
+19. Pomôcť (to help): 21 cards
+20. Báť (to fear): 20 cards
+21. Brať (to take): 23 cards
+22. Rozumieť (to understand): 24 cards
+23. Trieť (to rub): 24 cards
+24. Žuť (to chew): 24 cards
+25. Chytať (to catch): 24 cards
+26. Česať (to comb): 24 cards
+27. Žať (to reap): 24 cards
+28. Prísť (to arrive): 23 cards
+29. Stáť (to cost): 24 cards
+30. Hynúť (to perish): 24 cards
+31. Dôjsť (to come): 23 cards
+32. Pôjsť (to go): 23 cards
+33. Kričať (to scream): 24 cards
+34. Niesť (to carry): 23 cards
+35. Chudnúť (to lose weight): 24 cards
+
+### Deck Description

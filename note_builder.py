@@ -1,6 +1,6 @@
 import uuid
 
-from tags import Tense, Subject, VerbAttribute, Gender
+from tags import Tense, Subject, VerbAttribute, Gender, Misc
 from templates import Prompt, Notes
 from usc_note import USCNote
 from verb import Verb
@@ -13,11 +13,13 @@ class NoteBuilder:
     tense: Tense
     subjects: list[Subject]
     verb_attributes: list[VerbAttribute]
+    reminder: bool
     gender: Gender | None
 
     def __init__(self, verb: Verb):
         self.subjects = []
         self.verb_attributes = []
+        self.reminder = False
         self.gender = None
         self.__set_infinitive(verb.infinitive)
         self.__set_translation(verb.translation)
@@ -33,6 +35,10 @@ class NoteBuilder:
 
     def add_subject(self, subject: Subject) -> 'NoteBuilder':
         self.subjects.append(subject)
+        return self
+
+    def is_reminder(self) -> 'NoteBuilder':
+        self.reminder = True
         return self
 
     def set_gender(self, gender: Gender) -> 'NoteBuilder':
@@ -79,6 +85,8 @@ class NoteBuilder:
         [tags.append(str(verb_attribute)) for verb_attribute in self.verb_attributes]
         if self.gender is not None:
             tags.append(str(self.gender))
+        if self.reminder:
+            tags.append(str(Misc.Reminder))
 
         return tags
 

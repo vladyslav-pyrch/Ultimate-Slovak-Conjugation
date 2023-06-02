@@ -133,6 +133,7 @@ class Prompt:
         with open('static/templates/imperative/imperative tense (ony, oni).html', 'r', encoding="utf8") as template:
             return template.read().format(infinitive=infinitive, imperative=imperative)
 
+
 class Notes:
     @staticmethod
     def comma() -> str:

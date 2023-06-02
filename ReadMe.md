@@ -9,20 +9,18 @@ This deck will help you to learn the conjugation patterns that appears in Slovak
 Here are 14 verbs for regular conjugation patterns and 18 for irregular ones and 6 modal verbs,
 what adds up 35 verbs to learn.
 
-Each verb in the deck can take from 58 to 62 forms, those are:
+Each verb in the deck can have from 17 to 24 cards, those are:
 - infinitive - 1 card
-- verbal noun - 0 or 1 card
+- verbal noun - 0 to 1 card
 - participles (masculine singular only) - 0 to 3 cards
 - present tense - 6 cards
-- past tense - 10 cards
-- past perfect tense - 10 cards
-- future tense 6 cards
-- present conditional tense - 10 cards
-- past conditional tense - 10 cards
-- imperative tense - 1 or 5 cards (only 2 verbs have one imperative form)
+- past tense - 4 cards
+- future tense - 6 cards (only for byť)
+- imperative tense - 1 to 3 cards
+- reminder cards - 5 to 6 card (compound tenses)
 
-In total there are 2134 cards in the deck. If suspend past perfect(350) and past conditional(350) and future tense(210) cards, 
-the amount of cards will decrease to 1224 cards.
+In total there are 806 cards in the deck. If suspend reminder cards (), 
+the amount of cards will decrease to 592 cards.
 
 All the notes are made automatically by my open source code,
 so you can improve it by contribution to the project, or change it to fit your preferences. 

@@ -39,3 +39,7 @@ class VerbAttribute(StrEnum):
     Modal = "modal"
     Perfect = "perfect"
     Imperfect = "imperfect"
+
+
+class Misc(StrEnum):
+    Reminder = "reminder"
