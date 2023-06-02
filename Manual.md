@@ -229,7 +229,7 @@ There are no negative cards in this deck because they are formed by simply attac
 
 ### Tags & Filtering
 
-### List of the 72 Verbs
+### List of the 35 Verbs
 
 The deck has 811 conjugation cards.
 
