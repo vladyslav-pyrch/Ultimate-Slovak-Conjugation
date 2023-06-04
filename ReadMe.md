@@ -1,7 +1,7 @@
 # Ultimate-Slovak-Conjugations
 
 - [Link to the Manual](Manual.md)
-- [Link to the List of Verbs and Tags](List%20of%20Verbs%20and%20Tags.md)
+- [Link to the List of Verbs and Tags](List%20of%20Tags.md)
 
 ## Description
 
@@ -34,4 +34,4 @@ In the end I recommend you to check out the manual to the deck to make the most 
 Good luck in studying! 
 
 P.s. I have also made a similar deck for learning English Irregular Conjugation,
-[here it is](https://ankiweb.net/shared/info/643582787).
+[here it is](https://ankiweb.net/shared/info/154222898).
