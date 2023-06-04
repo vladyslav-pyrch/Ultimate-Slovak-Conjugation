@@ -20,7 +20,7 @@ So I kindly ask you to spend some of your time right not to understand how every
 
 Before we start, here is where things are:
 
-- Install the deck from [AnkiWeb]() or [this file](Ultimate%20Slovak%20Conjugation.apkg) here, on GitHub.
+- Install the deck from [AnkiWeb]() or [this file](%5BShared%5D%20Ultimate%20Slovak%20Conjugation.apkg) here, on GitHub.
 - To use it, you need to install either [AnkiDroid](https://play.google.com/store/apps/details?id=com.ichi2.anki&hl=en) (Android),
 [Anki Desktop](https://apps.ankiweb.net/) (Windows | Mac | Linux),
 or [AnkiMobile](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) (iOS).
