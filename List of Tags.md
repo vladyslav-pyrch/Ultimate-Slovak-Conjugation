@@ -5,7 +5,6 @@
   * [By Tense](#by-tense)
   * [By Subject](#by-subject)
   * [Verb Attributes](#verb-attributes)
-  * [Gender](#gender)
   * [Misc](#misc)
   * [By Verb](#by-verb)
     * [Regular](#regular)
@@ -55,19 +54,13 @@
 |    perfect    |
 |   imperfect   |
 
-## Gender
+## Misc
 
 |      Tag      |
 |:-------------:|
+|   reminder    |
 | feminine[^1]  |
 | masculine[^1] |
-
-
-## Misc
-
-|   Tag    |
-|:--------:|
-| Reminder |
 
 
 ## By Verb
