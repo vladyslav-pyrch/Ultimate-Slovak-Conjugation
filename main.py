@@ -15,6 +15,6 @@ if __name__ == '__main__':
         for anki_note in anki_notes[0]:
             USCDeck.add_note(anki_note)
 
-    USCDeck.write_to_file('Ultimate Slovak Conjugation.apkg')
+    USCDeck.write_to_file('[Shared] Ultimate Slovak Conjugation.apkg')
 
     print(f'Total amount of cards: {total_amount_of_cards}')

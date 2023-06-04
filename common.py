@@ -7,7 +7,7 @@ from verb import Verb
 
 USCDeck = genanki.Deck(
     1946551571,
-    "Ultimate Slovak Conjugation"
+    "Slovak::[Shared] Ultimate Slovak Conjugation"
 )
 
 front_card = open("static/front card.html", "r")
