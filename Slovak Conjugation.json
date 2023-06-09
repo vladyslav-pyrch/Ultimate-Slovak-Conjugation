@@ -64,10 +64,10 @@
       "imperative_my": "buďme",
       "imperative_vy": "buďte",
       "imperative_oni_ony": "nech sú",
+      "context": "v Londýne",
       "regular": false,
       "modal": true,
-      "perfect": false,
-      "amount_of_cards": 61
+      "perfect": false
     },
     {
       "infinitive": "mať",
@@ -133,10 +133,10 @@
       "imperative_my": "majme",
       "imperative_vy": "majte",
       "imperative_oni_ony": "nech majú",
+      "context": "auto",
       "regular": true,
       "modal": true,
-      "perfect": false,
-      "amount_of_cards": 60
+      "perfect": false
     },
     {
       "infinitive": "robiť",
@@ -202,10 +202,10 @@
       "imperative_my": "robme",
       "imperative_vy": "robte",
       "imperative_oni_ony": "nech robia",
+      "context": "domáce úlohy",
       "regular": true,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 62
+      "perfect": false
     },
     {
       "infinitive": "vidieť",
@@ -271,10 +271,10 @@
       "imperative_my": "vidme",
       "imperative_vy": "vidte",
       "imperative_oni_ony": "nech vidia",
+      "context": "niečo v oceáne",
       "regular": true,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 62
+      "perfect": false
     },
     {
       "infinitive": "ísť",
@@ -340,10 +340,10 @@
       "imperative_my": "poďme",
       "imperative_vy": "choďte",
       "imperative_oni_ony": "nech idú",
+      "context": "do práce",
       "regular": false,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 62
+      "perfect": false
     },
     {
       "infinitive": "chcieť",
@@ -409,10 +409,10 @@
       "imperative_my": "chcime",
       "imperative_vy": "chcite",
       "imperative_oni_ony": "nech chcú",
+      "context": "pracovať v škole",
       "regular": true,
       "modal": true,
-      "perfect": false,
-      "amount_of_cards": 62
+      "perfect": false
     },
     {
       "infinitive": "vedieť",
@@ -478,10 +478,10 @@
       "imperative_my": "vedzme",
       "imperative_vy": "vedzte",
       "imperative_oni_ony": "nech vedia",
+      "context": "lietať v lietadle",
       "regular": false,
       "modal": true,
-      "perfect": false,
-      "amount_of_cards": 62
+      "perfect": false
     },
     {
       "infinitive": "jesť",
@@ -547,10 +547,10 @@
       "imperative_my": "jedzme",
       "imperative_vy": "jedzte",
       "imperative_oni_ony": "nech jedia",
+      "context": "hranolky s hamburgerom",
       "regular": false,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 62
+      "perfect": false
     },
     {
       "infinitive": "stať",
@@ -616,10 +616,10 @@
       "imperative_my": "staňme",
       "imperative_vy": "staňte",
       "imperative_oni_ony": "nech stanú",
+      "context": "na pódiu",
       "regular": false,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 60
+      "perfect": false
     },
     {
       "infinitive": "nájsť",
@@ -685,10 +685,10 @@
       "imperative_my": "nájdime",
       "imperative_vy": "nájdite",
       "imperative_oni_ony": "nech nájdu",
+      "context": "v truhlici náhrdelník",
       "regular": false,
       "modal": false,
-      "perfect": true,
-      "amount_of_cards": 62
+      "perfect": true
     },
     {
       "infinitive": "môcť",
@@ -754,10 +754,10 @@
       "imperative_my": "môžme",
       "imperative_vy": "môžte",
       "imperative_oni_ony": "nech môžu",
+      "context": "kúpiť toto oblečenie",
       "regular": false,
       "modal": true,
-      "perfect": false,
-      "amount_of_cards": 59
+      "perfect": false
     },
     {
       "infinitive": "vziať",
@@ -823,10 +823,10 @@
       "imperative_my": "vezmime",
       "imperative_vy": "vezmite",
       "imperative_oni_ony": "nech vezmú",
+      "context": "si jablko z košíka",
       "regular": false,
       "modal": false,
-      "perfect": true,
-      "amount_of_cards": 60
+      "perfect": true
     },
     {
       "infinitive": "dostať",
@@ -889,13 +889,13 @@
       "past_conditional_oni_ony": "boli by dostali",
       "imperative_ty": "dostaň",
       "imperative_on_ona_ono": "nech dostane",
-      "imperative_my": "dostaňte",
-      "imperative_vy": "dostaňme",
+      "imperative_my": "dostaňme",
+      "imperative_vy": "dostaňte",
       "imperative_oni_ony": "nech dostanú",
+      "context": "si tanier z poličky",
       "regular": false,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 62
+      "perfect": false
     },
     {
       "infinitive": "musieť",
@@ -961,10 +961,10 @@
       "imperative_my": null,
       "imperative_vy": null,
       "imperative_oni_ony": null,
+      "context": "byť na 3 stretnutiach",
       "regular": true,
       "modal": true,
-      "perfect": false,
-      "amount_of_cards": 58
+      "perfect": false
     },
     {
       "infinitive": "povedať",
@@ -1030,10 +1030,10 @@
       "imperative_my": "povedzme",
       "imperative_vy": "povedzte",
       "imperative_oni_ony": "nech povedia",
+      "context": "deťom príbeh",
       "regular": false,
       "modal": false,
-      "perfect": true,
-      "amount_of_cards": 61
+      "perfect": true
     },
     {
       "infinitive": "pracovať",
@@ -1099,10 +1099,10 @@
       "imperative_my": "pracujme",
       "imperative_vy": "pracujte",
       "imperative_oni_ony": "nech pracujú",
+      "context": "v továrni",
       "regular": true,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 62
+      "perfect": false
     },
     {
       "infinitive": "smieť",
@@ -1168,10 +1168,10 @@
       "imperative_my": null,
       "imperative_vy": null,
       "imperative_oni_ony": null,
+      "context": "chodiť na nočnú prechádzku",
       "regular": true,
       "modal": true,
-      "perfect": false,
-      "amount_of_cards": 54
+      "perfect": false
     },
     {
       "infinitive": "predpovedať",
@@ -1237,10 +1237,10 @@
       "imperative_my": "predpovedzme",
       "imperative_vy": "predpovedzte",
       "imperative_oni_ony": "nech predpovedia",
+      "context": "jeho víťazstvo vo voľbách",
       "regular": false,
       "modal": false,
-      "perfect": true,
-      "amount_of_cards": 61
+      "perfect": true
     },
     {
       "infinitive": "pomôcť",
@@ -1306,10 +1306,10 @@
       "imperative_my": "pomôžme",
       "imperative_vy": "pomôžte",
       "imperative_oni_ony": "nech pomôžu",
+      "context": "priateľovi pri sťahovaní",
       "regular": false,
       "modal": false,
-      "perfect": true,
-      "amount_of_cards": 59
+      "perfect": true
     },
     {
       "infinitive": "báť",
@@ -1375,10 +1375,10 @@
       "imperative_my": "bojme",
       "imperative_vy": "bojte",
       "imperative_oni_ony": "nech boja",
+      "context": "sa myší a potkanov",
       "regular": false,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 58
+      "perfect": false
     },
     {
       "infinitive": "brať",
@@ -1444,10 +1444,10 @@
       "imperative_my": "berme",
       "imperative_vy": "berte",
       "imperative_oni_ony": "nech berú",
+      "context": "si loptu domov",
       "regular": true,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 61
+      "perfect": false
     },
     {
       "infinitive": "rozumieť",
@@ -1513,10 +1513,10 @@
       "imperative_my": "rozumejme",
       "imperative_vy": "rozumejte",
       "imperative_oni_ony": "nech rozumejú",
+      "context": "novú tému vyučovacej hodiny",
       "regular": true,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 62
+      "perfect": false
     },
     {
       "infinitive": "trieť",
@@ -1582,10 +1582,10 @@
       "imperative_my": "trime",
       "imperative_vy": "trite",
       "imperative_oni_ony": "nech trú",
+      "context": "psa po bruchu",
       "regular": true,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 62
+      "perfect": false
     },
     {
       "infinitive": "žuť",
@@ -1651,10 +1651,10 @@
       "imperative_my": "žujme",
       "imperative_vy": "žujte",
       "imperative_oni_ony": "nech žujú",
+      "context": "kolík v kaviarni",
       "regular": true,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 62
+      "perfect": false
     },
     {
       "infinitive": "chytať",
@@ -1720,10 +1720,10 @@
       "imperative_my": "chytajme",
       "imperative_vy": "chytajte",
       "imperative_oni_ony": "nech chytajú",
+      "context": "motýľa rukami",
       "regular": true,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 62
+      "perfect": false
     },
     {
       "infinitive": "česať",
@@ -1789,10 +1789,10 @@
       "imperative_my": "cešme",
       "imperative_vy": "cešte",
       "imperative_oni_ony": "nech cešú",
+      "context": "hlavu",
       "regular": true,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 62
+      "perfect": false
     },
     {
       "infinitive": "žať",
@@ -1858,10 +1858,10 @@
       "imperative_my": "žnime",
       "imperative_vy": "žnite",
       "imperative_oni_ony": "nech žnú",
+      "context": "úrodu teraz",
       "regular": true,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 62
+      "perfect": false
     },
     {
       "infinitive": "prísť",
@@ -1927,10 +1927,10 @@
       "imperative_my": "príďme",
       "imperative_vy": "príďte",
       "imperative_oni_ony": "nech prídu",
+      "context": "do výboru",
       "regular": false,
       "modal": false,
-      "perfect": true,
-      "amount_of_cards": 61
+      "perfect": true
     },
     {
       "infinitive": "stáť",
@@ -1996,10 +1996,10 @@
       "imperative_my": "stojme",
       "imperative_vy": "stojte",
       "imperative_oni_ony": "nech stoja",
+      "context": "500 libier za hodinu",
       "regular": false,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 62
+      "perfect": false
     },
     {
       "infinitive": "hynúť",
@@ -2065,10 +2065,10 @@
       "imperative_my": "hyňme",
       "imperative_vy": "hyňte",
       "imperative_oni_ony": "nech hynú",
+      "context": "každý deň",
       "regular": true,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 62
+      "perfect": false
     },
     {
       "infinitive": "dôjsť",
@@ -2134,10 +2134,10 @@
       "imperative_my": "dôjdime",
       "imperative_vy": "dôjdite",
       "imperative_oni_ony": "nech dôjdú",
+      "context": "na oslavu za 5 minút",
       "regular": false,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 61
+      "perfect": false
     },
     {
       "infinitive": "pôjsť",
@@ -2203,10 +2203,10 @@
       "imperative_my": "pôjdime",
       "imperative_vy": "pôjdite",
       "imperative_oni_ony": "nech pôjdú",
+      "context": "do práce",
       "regular": false,
       "modal": false,
-      "perfect": true,
-      "amount_of_cards": 61
+      "perfect": true
     },
     {
       "infinitive": "kričať",
@@ -2272,10 +2272,10 @@
       "imperative_my": "kričme",
       "imperative_vy": "kričte",
       "imperative_oni_ony": "nech kričia",
+      "context": "na mladšieho brata",
       "regular": true,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 62
+      "perfect": false
     },
     {
       "infinitive": "niesť",
@@ -2341,10 +2341,10 @@
       "imperative_my": "nesme",
       "imperative_vy": "neste",
       "imperative_oni_ony": "nech nesú",
+      "context": "kufor a tašku",
       "regular": true,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 61
+      "perfect": false
     },
     {
       "infinitive": "chudnúť",
@@ -2410,10 +2410,10 @@
       "imperative_my": "chudnime",
       "imperative_vy": "chudnite",
       "imperative_oni_ony": "nech chudnú",
+      "context": "na 20 kg",
       "regular": true,
       "modal": false,
-      "perfect": false,
-      "amount_of_cards": 62
+      "perfect": false
     }
   ]
 }

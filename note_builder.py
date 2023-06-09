@@ -21,8 +21,9 @@ class NoteBuilder:
         self.verb_attributes = []
         self.reminder = False
         self.gender = None
-        self.__set_infinitive(verb.infinitive)
-        self.__set_translation(verb.translation)
+        self.infinitive = verb.infinitive
+        self.translation = verb.translation
+        self.context = verb.context
         self.__set_attributes(verb.regular, verb.modal, verb.perfect)
 
     def set_conjugation(self, conjugation: str) -> 'NoteBuilder':
@@ -47,12 +48,6 @@ class NoteBuilder:
 
     def build(self) -> USCNote:
         return USCNote.create(self.__uuid, self.__prompt, self.__notes, self.__tags)
-
-    def __set_infinitive(self, infinitive: str):
-        self.infinitive = infinitive
-
-    def __set_translation(self, translation: str):
-        self.translation = translation
 
     def __add_verb_attribute(self, verb_attribute: VerbAttribute):
         self.verb_attributes.append(verb_attribute)
@@ -93,64 +88,64 @@ class NoteBuilder:
     @property
     def __prompt(self) -> str:
         if self.tense is Tense.Infinitive:
-            return Prompt.infinitive(self.infinitive, self.conjugation)
+            return Prompt.infinitive(self.infinitive, self.conjugation, self.context)
 
         if self.tense is Tense.VerbalNoun:
-            return Prompt.verbal_noun(self.infinitive, self.conjugation)
+            return Prompt.verbal_noun(self.infinitive, self.conjugation, self.context)
 
         if self.tense is Tense.PresentActiveParticiple:
             return Prompt.present_active_participle(self.infinitive, self.conjugation)
         if self.tense is Tense.PastActiveParticiple:
-            return Prompt.past_active_participle(self.infinitive, self.conjugation)
+            return Prompt.past_active_participle(self.infinitive, self.conjugation, self.context)
         if self.tense is Tense.PastPassiveParticiple:
             return Prompt.past_passive_participle(self.infinitive, self.conjugation)
 
         if self.tense is Tense.Present and Subject.On in self.subjects and Subject.Ona in self.subjects and Subject.Ono in self.subjects:
-            return Prompt.present_tense_on_ona_ono(self.infinitive, self.conjugation)
+            return Prompt.present_tense_on_ona_ono(self.infinitive, self.conjugation, self.context)
         if self.tense is Tense.Present and Subject.Ony in self.subjects and Subject.Oni in self.subjects:
-            return Prompt.present_tense_ony_oni(self.infinitive, self.conjugation)
+            return Prompt.present_tense_ony_oni(self.infinitive, self.conjugation, self.context)
         if self.tense is Tense.Present:
-            return Prompt.present_tense(self.infinitive, self.conjugation, self.subjects[0])
+            return Prompt.present_tense(self.infinitive, self.conjugation, self.subjects[0], self.context)
 
         if self.tense is Tense.Past and Subject.Ony in self.subjects and Subject.Oni in self.subjects:
-            return Prompt.past_tense_ony_oni(self.infinitive, self.conjugation)
+            return Prompt.past_tense_ony_oni(self.infinitive, self.conjugation, self.context)
         if self.tense is Tense.PastPerfect and Subject.Ony in self.subjects and Subject.Oni in self.subjects:
-            return Prompt.past_perfect_tense_ony_oni(self.infinitive, self.conjugation)
+            return Prompt.past_perfect_tense_ony_oni(self.infinitive, self.conjugation, self.context)
         if self.tense is Tense.Past and self.gender is not None:
-            return Prompt.past_tense_gender(self.infinitive, self.conjugation, self.subjects[0], self.gender)
+            return Prompt.past_tense_gender(self.infinitive, self.conjugation, self.subjects[0], self.gender, self.context)
         if self.tense is Tense.PastPerfect and self.gender is not None:
-            return Prompt.past_perfect_tense_gender(self.infinitive, self.conjugation, self.subjects[0], self.gender)
+            return Prompt.past_perfect_tense_gender(self.infinitive, self.conjugation, self.subjects[0], self.gender, self.context)
         if self.tense is Tense.Past:
-            return Prompt.past_tense(self.infinitive, self.conjugation, self.subjects[0])
+            return Prompt.past_tense(self.infinitive, self.conjugation, self.subjects[0], self.context)
         if self.tense is Tense.PastPerfect:
-            return Prompt.past_perfect_tense(self.infinitive, self.conjugation, self.subjects[0])
+            return Prompt.past_perfect_tense(self.infinitive, self.conjugation, self.subjects[0], self.context)
 
         if self.tense is Tense.Future and Subject.On in self.subjects and Subject.Ona in self.subjects and Subject.Ono in self.subjects:
-            return Prompt.future_tense_on_ona_ono(self.infinitive, self.conjugation)
+            return Prompt.future_tense_on_ona_ono(self.infinitive, self.conjugation, self.context)
         if self.tense is Tense.Future and Subject.Ony in self.subjects and Subject.Oni in self.subjects:
-            return Prompt.future_tense_ony_oni(self.infinitive, self.conjugation)
+            return Prompt.future_tense_ony_oni(self.infinitive, self.conjugation, self.context)
         if self.tense is Tense.Future:
-            return Prompt.future_tense(self.infinitive, self.conjugation, self.subjects[0])
+            return Prompt.future_tense(self.infinitive, self.conjugation, self.subjects[0], self.context)
 
         if self.tense is Tense.PresentConditional and Subject.Ony in self.subjects and Subject.Oni in self.subjects:
-            return Prompt.present_conditional_ony_oni(self.infinitive, self.conjugation)
+            return Prompt.present_conditional_ony_oni(self.infinitive, self.conjugation, self.context)
         if self.tense is Tense.PastConditional and Subject.Ony in self.subjects and Subject.Oni in self.subjects:
-            return Prompt.past_conditional_ony_oni(self.infinitive, self.conjugation)
+            return Prompt.past_conditional_ony_oni(self.infinitive, self.conjugation, self.context)
         if self.tense is Tense.PresentConditional and self.gender is not None:
-            return Prompt.present_conditional_gender(self.infinitive, self.conjugation, self.subjects[0], self.gender)
+            return Prompt.present_conditional_gender(self.infinitive, self.conjugation, self.subjects[0], self.gender, self.context)
         if self.tense is Tense.PastConditional and self.gender is not None:
-            return Prompt.past_conditional_gender(self.infinitive, self.conjugation, self.subjects[0], self.gender)
+            return Prompt.past_conditional_gender(self.infinitive, self.conjugation, self.subjects[0], self.gender, self.context)
         if self.tense is Tense.PresentConditional:
-            return Prompt.present_conditional(self.infinitive, self.conjugation, self.subjects[0])
+            return Prompt.present_conditional(self.infinitive, self.conjugation, self.subjects[0], self.context)
         if self.tense is Tense.PastConditional:
-            return Prompt.past_conditional(self.infinitive, self.conjugation, self.subjects[0])
+            return Prompt.past_conditional(self.infinitive, self.conjugation, self.subjects[0], self.context)
 
         if self.tense is Tense.Imperative and Subject.On in self.subjects and Subject.Ona in self.subjects and Subject.Ono in self.subjects:
-            return Prompt.imperative_tense_on_ona_ono(self.infinitive, self.conjugation)
+            return Prompt.imperative_tense_on_ona_ono(self.infinitive, self.conjugation, self.context)
         if self.tense is Tense.Imperative and Subject.Ony in self.subjects and Subject.Oni in self.subjects:
-            return Prompt.imperative_tense_ony_oni(self.infinitive, self.conjugation)
+            return Prompt.imperative_tense_ony_oni(self.infinitive, self.conjugation, self.context)
         if self.tense is Tense.Imperative:
-            return Prompt.imperative_tense(self.infinitive, self.conjugation, self.subjects[0])
+            return Prompt.imperative_tense(self.infinitive, self.conjugation, self.subjects[0], self.context)
 
         raise Exception()
 

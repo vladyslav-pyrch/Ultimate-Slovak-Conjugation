@@ -176,14 +176,14 @@ Cards in present tense have:
 
 This card is prompting for *robil*.
 
-6. Past perfect**<br>
+**6. Past perfect**<br>
 Cards in present tense have:
 - a verbal cue: `Pred týmto časom,`
 - a visual cue: the left arrow plus the down arrow `←↧`
 
 ![past perfect.png](static%2Fimages%2Fpast%20perfect.png)
 
-This card is prompting for *bola robila*.
+This card is prompting for *bolo robilo*.
 
 **7. Future**<br>
 Cards in present tense have:
@@ -192,7 +192,7 @@ Cards in present tense have:
 
 ![future.png](static%2Fimages%2Ffuture.png)
 
-This card is prompting for *budeme robiť*.
+This card is prompting for *bude robiť*.
 
 **8. Present conditional**<br>
 Cards in present tense have:
@@ -201,7 +201,7 @@ Cards in present tense have:
 
 ![present conditional.png](static%2Fimages%2Fpresent%20conditional.png)
 
-This card is prompting for *robili by ste*.
+This card is prompting for *robilo by*.
 
 **9. Past conditional**<br>
 Cards in present tense have:
@@ -210,7 +210,7 @@ Cards in present tense have:
 
 ![past conditional.png](static%2Fimages%2Fpast%20conditional.png)
 
-This card is prompting for *boli by ste robili*.
+This card is prompting for *bolo by robilo*.
 
 **10. Imperative**<br>
 Cards in present tense have:

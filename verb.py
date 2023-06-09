@@ -70,7 +70,7 @@ class Verb:
     regular: bool
     modal: bool
     perfect: bool
-    amount_of_cards: int
+    context: str
 
     def __init__(self, obj: Any):
         self.__dict__ = obj
