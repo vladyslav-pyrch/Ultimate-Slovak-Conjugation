@@ -10,6 +10,7 @@
     * [Tags & Filtering](#tags--filtering)
     * [List of the 35 Verbs](#list-of-the-35-verbs)
     * [Deck Description](#deck-description)
+    * [Conjugation Resources](#conjugation-resources)
 <!-- TOC -->
 
 ## English
@@ -528,3 +529,10 @@ tag:feminine
 tag:masculine
 
 ```
+
+### Conjugation Resources
+- https://labs.juls.savba.sk/
+- https://slovake.eu/learning/grammar/classes%2Fverbs
+- https://www.logosconjugator.org/
+- http://www.slovnik.org/ru/Ucebnica/Table-04.html
+- https://www.verbix.com/languages/slovak
